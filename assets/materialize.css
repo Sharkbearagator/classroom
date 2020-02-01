@@ -23,3 +23,6 @@ background-color: #2F9A16;
 .row{
     text-align: center;
 }
+.col{
+    width: 65%;
+}
