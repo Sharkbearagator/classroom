@@ -19,6 +19,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -29,36 +33,42 @@
   <body>
     <nav>
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo center">Ms. Daisha's Class</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="class.html">Class Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">About Me</a></li>
+        <a href="index.html" class="brand-logo center col s3 m3"
+          >Ms. Daisha's Class</a
+        >
+        <a
+          href="#"
+          data-target="mobile-demo"
+          class="sidenav-trigger col sm3 md 4"
+          ><i class="material-icons">menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="class.html" class="s3 m3">Class Work</a></li>
+          <li><a href="contact.html" class="s3 m3">Contact</a></li>
+          <li><a href="about.html" class="s3 m3">About Me</a></li>
+          <li><a href="index.html" class="s3 m3">Home</a></li>
         </ul>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="class.html" class="s3 m3">Class Work</a></li>
+      <li><a href="contact.html" class="s3 m3">Contact</a></li>
+      <li><a href="about.html" class="s3 m3">About Me</a></li>
+      <li><a href="index.html" class="s3 m3">Home</a></li>
+    </ul>
     <div class="parallax-container">
       <div class="parallax"><img src="./assets/classroom.jpg" /></div>
     </div>
     <div class="section white">
       <div class="row container">
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <h2 class="header">Welcome to my Class Website!</h2>
         </div>
-        <div class="col-md-12">
+        <div class="col-sm-12">
           <p class="grey-text text-darken-3 lighten-3">
             Here is where you will find where I post all the things we do in
             class. You can find examples of work and what you may have missed
             here as well. Feel free to contact me with any questions!
-          </p>
-        </div>
-        <div class="col-md-12">
-          <div class="post"><li>First Day of School!</li></div>
-        </div>
-        <div class="col-md-12">
-          <p>
-            Welcome to the first day of School! We had a welcome to school
-            day! We played a game to introduce ourselves!
           </p>
         </div>
       </div>
@@ -70,10 +80,6 @@
       <div class="footer-copyright">
         <div class="container">
           © 2020 Copyright
-          <a href="index.html">Home</a>
-          <a href="class.html">Class Work</a>
-          <a href="contact.html">Contact</a>
-          <a href="about.html">About Me</a>
         </div>
       </div>
     </footer>
